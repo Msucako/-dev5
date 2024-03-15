@@ -1,0 +1,32 @@
+h2{
+    color: chocolate;
+}
+
+
+@keyframes random {
+
+    0%{
+        color: rgb(125, 7, 235);
+    }
+
+    50%{
+        color: darkorchid;
+    }
+
+    100%{
+        color: rgb(107, 36, 104);
+    }
+
+}
+
+h1{
+    animation: random 4s infinite;
+}
+
+ul{
+    animation: random;
+}
+ ol:hover{
+    
+
+ }
